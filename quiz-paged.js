@@ -3,7 +3,7 @@
             question: "What is this persons occupation?",
             imageTitle: "Englebert Humperdink",
             //imageSrc: "/images/image-one.jpg",
-            imageSrc: "https://picsum.photos/180/?random",
+            imageSrc: "https://picsum.photos/180/?image=0",
             answers: {
                 a: "Property Manager",
                 b: "Realtor",
@@ -14,7 +14,7 @@
         {
             question: "What is this persons occupation?",
             imageTitle: "Ivan Yakanov",
-            imageSrc: "https://picsum.photos/180/?random",
+            imageSrc: "https://picsum.photos/180/?image=45",
             answers: {
                 a: "CEO of Tech Startup",
                 b: "Stunt Person",
@@ -25,7 +25,7 @@
         {
             question: "What is this persons occupation?",
             imageTitle: "Eldin Shimblephennig",
-            imageSrc: "https://picsum.photos/180/?random",
+            imageSrc: "https://picsum.photos/180/?image=60",
             answers: {
                 a: "Antarctica",
                 b: "Exploring the Pacific Ocean",
