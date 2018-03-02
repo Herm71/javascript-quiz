@@ -1,4 +1,3 @@
-sandbox
-=======
+# JavaScript Quiz
 
-My testing area. I'm a constant learner. This is where I will learn stuff.
+JavaScript practice project. Uses a modal as a popup, then presents a multi-question quiz. Can be customized to any application.
