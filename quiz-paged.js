@@ -1,24 +1,31 @@
 (function() {
     const myQuestions = [{
-            question: "Who is the strongest?",
+            question: "What is this persons occupation?",
+            imageTitle: "Englebert Humperdink",
+            //imageSrc: "/images/image-one.jpg",
+            imageSrc: "https://picsum.photos/180/?random",
             answers: {
-                a: "Superman",
-                b: "The Terminator",
-                c: "Waluigi, obviously"
+                a: "Property Manager",
+                b: "Realtor",
+                c: "Go Go Dancer"
             },
             correctAnswer: "c"
         },
         {
-            question: "What is the best site ever created?",
+            question: "What is this persons occupation?",
+            imageTitle: "Ivan Yakanov",
+            imageSrc: "https://picsum.photos/180/?random",
             answers: {
-                a: "SitePoint",
-                b: "Simple Steps Code",
-                c: "Trick question; they're both the best"
+                a: "CEO of Tech Startup",
+                b: "Stunt Person",
+                c: "County Sanitation Engineer"
             },
             correctAnswer: "c"
         },
         {
-            question: "Where is Waldo really?",
+            question: "What is this persons occupation?",
+            imageTitle: "Eldin Shimblephennig",
+            imageSrc: "https://picsum.photos/180/?random",
             answers: {
                 a: "Antarctica",
                 b: "Exploring the Pacific Ocean",
@@ -53,6 +60,7 @@
             // add this question and its answers to the output
             output.push(
                 `<div class="slide">
+                <img src="${currentQuestion.imageSrc}" >  
                 <div class="question"> ${currentQuestion.question} </div>
                 <div class="answers"> ${answers.join("")} </div>
                 </div>`
